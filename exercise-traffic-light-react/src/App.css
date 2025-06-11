@@ -1,0 +1,33 @@
+.semaforo {
+  width: 100px;
+  background: #333;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.light {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #555;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.dark {
+  box-shadow: inset 2px -5px 20px #000;
+}
+.glow {
+  box-shadow: 0 0 25px 10px #ffffffbd ;
+  transition: box-shadow 0.3s ease;
+}
